@@ -76,7 +76,7 @@ function ShowWinnerSeq(){
 
     winningSeq.forEach((box)=>{
         if(playerTurn == 1){
-            squares[box].style.backgroundColor = 'rgba(3, 48, 145, 0.5)';
+            squares[box].style.backgroundColor = 'rgba(3, 48, 145, 0.75)';
         }else{
             squares[box].style.backgroundColor = 'rgba(255, 114, 71, 0.4)';
         }     
